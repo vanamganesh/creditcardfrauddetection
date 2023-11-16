@@ -26,15 +26,24 @@ The autoencoder is a good fit because credit card transactions are pretty compli
 Another advantage is that the autoencoder can cut out the unnecessary stuff in credit card transactions. Transactions sometimes have extra details that aren't helpful, and the autoencoder can focus on what matters. This not only makes it work faster but also helps it pay attention to the important parts of the data. So, by using the unsupervised autoencoder, we're tackling fraud with a system that can adapt, handle the complexity of credit card transactions, and efficiently find meaningful patterns in the data.
 
 ### 5. Files:
+
 **creditcard** - This is a main copy of the kaggle dataset that contains all the records of transactions (fraud and legit)
+
 **testing_data** - This dataset contains only anomalies(only fraud transactions)
+
 **sampling_data** - This is a random sampling data
+
 **your_pipeline.joblib** - This file contains normalization and standardisation pipeline
+
 **autoencoder_best__weights_.hdf5** - The model best parametres are saved here
+
 **Main_file** - This is a complete python script file that represents the working of model in real-time
 
 ### 6. Approach:
 -Run the mainfile.py python script to see the script detecting anomalies in continuous data stream.
+
 -Here I am using a csv file instead of a database or any IoT device output in order to speedup the testing of my code. If needed we can change it to a data base stream.
+
 -I have set the retrain threshold of the model to 50 so that the model updates itself for every 50 mistakes it makes. If needed we can change the retrain threshold value based on the requirement.
+
 -I created all the above files from EDA (exploratory data analysis) of the given data.
