@@ -46,4 +46,4 @@ Another advantage is that the autoencoder can cut out the unnecessary stuff in c
 
 -I have set the retrain threshold of the model to 50 so that the model updates itself for every 50 mistakes it makes. If needed we can change the retrain threshold value based on the requirement.
 
--I created all the above files from EDA (exploratory data analysis) of the given data.
+-The files required for Main file script was extracted from  Eda.ipynb file with selected best results
