@@ -1,6 +1,6 @@
 ### 1. Introduction
 
-In today's digital age, credit cards are a common and convenient way to manage money. However, the surge in digital payments has heightened the risk of fraud, presenting a challenge for banks and customers alike. Swift detection of fraudulent transactions is crucial for credit card companies to prevent financial losses and uphold customer trust. This project's emphasis on credit card fraud detection addresses the evolving tactics of fraudsters, who continually exploit weaknesses in digital payment systems. Beyond monetary concerns, fraud compromises financial information, damages reputations, and undermines trust in online transactions, affecting individuals and businesses. Advanced technologies like machine learning are essential to build robust defenses, enhancing the overall security of the financial system for everyone involved.
+Credit card transactions are common and convenient, but the risk of fraud has increased with digital payments. Credit card companies face a tough challenge to detect and stop fraudulent transactions. To tackle this complex challenge, advanced technologies like machine learning are used to build strong defenses against fraudulent activities.
 
 ### 2. About Dataset
 
